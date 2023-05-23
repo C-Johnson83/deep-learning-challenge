@@ -4,7 +4,7 @@ Neural Network Model Report
 
 
 
-# Overview of the analysis: Explain the purpose of this analysis..
+# Alphabet Soup Charity Analysis
 The purpose of this analysis was to help Alphabet Soup predict the success of funding applicants. The analysis involved constructing a binary classifier using organizational metadata.
 
 
