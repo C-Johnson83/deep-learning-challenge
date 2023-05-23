@@ -5,7 +5,7 @@ Neural Network Model Report
 
 
 # Overview of the analysis: Explain the purpose of this analysis..
-The purpose of this analysis was to help Alphabet Soup predict the success of funding applicants. The analysis involved constructing a binary classifier using organizational metadata. The following questions are addressed with bulleted lists:
+The purpose of this analysis was to help Alphabet Soup predict the success of funding applicants. The analysis involved constructing a binary classifier using organizational metadata.
 
 
 
@@ -22,9 +22,18 @@ The purpose of this analysis was to help Alphabet Soup predict the success of fu
 # Compiling, Training, and Evaluating the Model:
 - The model architecture consists of three hidden layers with 2000, 1000, and 500 neurons, respectively, using the ReLU activation function. The output layer has one neuron with a sigmoid activation function. I chose this because I read that for large data dimensions every solution could be found with 3 to 5 layers. I increased the neurons since the data was larger than anything from our class examples. 
 
-- Unfortunately, I was not able to achieve the target score of 75 no matter what changes I made.
-
+- The initial model had an accuracy score of 72.9%
+- 
+- ![epoch output](https://github.com/C-Johnson83/deep-learning-challenge/assets/117872216/20866f4c-61e3-4291-be7b-3721f1b818f8)
+- 
+- Unfortunately, I was not able to achieve the target score of 75 no matter what changes I made. As pictured, all 3 models varried, but peaked arround the same spot
 - I increased the amount of bins for the classification and application types, I adjusted the amount of layers and neurons for each layer and altered the activations with each model. I did not change the optimizer or the loss since we only used binary_crossentropy for the loss and adam for the optimizer in class.
+- 
+![image](https://github.com/C-Johnson83/deep-learning-challenge/assets/117872216/3114f8aa-af35-455a-a3a2-61b99eb01a89)
+
+The final neural network model had an accuracy score of 72.8%
+
+![AlphabetSoupCharity_Optimization](https://github.com/C-Johnson83/deep-learning-challenge/assets/117872216/1e4cd44f-4890-42ea-b784-d90a14e13f66)
 
 
 
